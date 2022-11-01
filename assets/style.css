@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap') */
 
 * {
   padding: 0;
@@ -10,26 +9,24 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background: url('/assets/img/bg.jpg');
-  /* background: gray; */
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   position: relative;
 }
 
 .container {
   display: flex;
-  padding: 100px 50px;
+  padding: 130px 50px;
   height: 100%;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  /* bottom: 0; */
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.45;
   z-index: -1;
   min-height: 100%;
 }
@@ -61,10 +58,9 @@ body {
 }
 
 .thumbnail p {
-  color: rgb(249, 204, 0);
+  color: #f9cc00;
   font-size: 16px;
   letter-spacing: 1px;
-  /* font-weight: bold; */
 }
 
 /* --- right section --- */
@@ -76,7 +72,7 @@ body {
 }
 
 .summary h2 {
-  margin: 10px 0 20px;
+  margin-bottom: 20px;
   font-size: 30px;
   font-weight: 400;
 }
@@ -107,6 +103,7 @@ table .separator {
 
 
 /* -- responsive breakpoint for smaller screen -- */
+
 @media only screen and (max-width: 992px) {
   .thumbnail .card {
     margin-right: 50px;
