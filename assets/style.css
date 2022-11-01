@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background: url('/assets/img/bg.jpg');
+  background: url('https://res.cloudinary.com/ddxagvyul/image/upload/v1667308604/project/bg_um7abc.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
