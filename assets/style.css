@@ -40,7 +40,7 @@ body {
 
 .thumbnail .card {
   border: 5px solid rgba(255, 255, 255, 0.7);
-  padding: 50px 10px;
+  padding: 45px 10px;
   text-align: center;
   margin-right: 130px;
   margin-left: 100px;
@@ -61,6 +61,28 @@ body {
   color: #f9cc00;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+.sosmed{
+  margin-top: 25px;
+}
+
+.sosmed a {
+  color: #0f373e;
+  margin: 0 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.sosmed a:hover{
+  color: #fff;
+  background-color: #0f373e;
 }
 
 /* --- right section --- */
@@ -99,6 +121,16 @@ table td {
 table .separator {
   padding-right: 10px;
   padding-left: 30px;
+}
+
+/* running text */
+.running-text {
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+marquee {
+  letter-spacing: 5px;
 }
 
 
